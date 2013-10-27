@@ -1,0 +1,2288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/paperbg"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:scrollbarStyle="outsideOverlay" >
+
+            <TextView
+                android:id="@+id/TextView183"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/livrecolore"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/craft_livre" />
+
+            <TextView
+                android:id="@+id/TextView180"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/bibliotheque"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/craft_biblio" />
+
+            <TextView
+                android:id="@+id/TextView181"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView179"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/marbredalle"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/marbre_demidalle" />
+
+            <TextView
+                android:id="@+id/TextView178"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/specialitetoute"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView176"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/marbre"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/marbre_raffine" />
+
+            <TextView
+                android:id="@+id/TextView177"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marbredesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView175"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/piochesaphir"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/pioche_saphir" />
+
+            <TextView
+                android:id="@+id/TextView174"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/piochesaphirdesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView172"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/lampeglow"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/lampe_glowstone" />
+
+            <TextView
+                android:id="@+id/TextView173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lampedesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView170"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/lampeglowpure"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/lampe_glowstone_pure" />
+
+            <TextView
+                android:id="@+id/TextView171"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lampedesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView168"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/tableaufer"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/tableau_fer" />
+
+            <TextView
+                android:id="@+id/TextView169"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tableauferdesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView166"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/netherbrick"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/netherbrick" />
+
+            <TextView
+                android:id="@+id/TextView167"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/netherbrickdesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView164"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/vase"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/vase" />
+
+            <TextView
+                android:id="@+id/TextView165"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vasedesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView162"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/crane"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/crane" />
+
+            <TextView
+                android:id="@+id/TextView163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cranedesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/stonecracked"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/cracked_smooth" />
+
+            <TextView
+                android:id="@+id/TextView161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mineursdesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView159"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/mossystone"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/mossy_smooth" />
+
+            <TextView
+                android:id="@+id/TextView158"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mineursdesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView157"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/mossy"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/mossy" />
+
+            <TextView
+                android:id="@+id/TextView156"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mineursdesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView155"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/biere"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/biereprocess" />
+
+            <ImageView
+                android:id="@+id/ImageView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/biere" />
+
+            <TextView
+                android:id="@+id/TextView154"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bieredesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView153"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/buchehorizon"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/buches" />
+
+            <TextView
+                android:id="@+id/TextView152"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bucheshorizondesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/toile"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/toile" />
+
+            <TextView
+                android:id="@+id/TextView151"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toiledesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView149"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/lancefeu"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/lancefeuxartifice" />
+
+            <TextView
+                android:id="@+id/TextView148"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lancefeudesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView146"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/fusee"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/fusees" />
+
+            <TextView
+                android:id="@+id/TextView147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fuseedesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView145"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/verrecolore"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/verrecolore" />
+
+            <TextView
+                android:id="@+id/TextView144"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verrepiledesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView142"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/verrepile"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/verrepile" />
+
+            <TextView
+                android:id="@+id/TextView143"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verrepiledesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView137"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10px"
+                android:text="@string/cape"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:src="@drawable/allcapes" />
+
+            <TextView
+                android:id="@+id/TextView136"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/capedesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView135"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10px"
+                android:text="@string/vis"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:src="@drawable/vis" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView134"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/visdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10px"
+                android:text="@string/chaine"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:src="@drawable/chaine" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chainedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10px"
+                android:text="@string/poulie"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:src="@drawable/poulie" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pouliedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10px"
+                android:text="@string/supportbois"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:src="@drawable/support_bois" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/supportboisdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/supportfer"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:src="@drawable/support_fer" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/supportferdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/obsiepee"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsi_epee" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obsiepeedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/obsi_casque"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsi_casque" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obsi_armuredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/obsi_armure"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsi_armure" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obsi_armuredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/obsi_jambe"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsi_jambieres" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obsi_armuredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/obsi_pied"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsi_bottes" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obsi_armuredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/hacheparfaite"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hache_parfaite" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hacheparfaitedesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView138"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:paddingTop="20px"
+                android:text="@string/marteauobsi"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/ImageView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marteau_obsidienne" />
+
+            <TextView
+                android:id="@+id/TextView139"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marteau_diamantdesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/marteau_diamant"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marteau_diamant" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marteau_diamantdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/marteau_or"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marteau_or" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marteau_diamantdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/marteau_fer"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marteau_fer" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marteau_diamantdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView20"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/marteau_pierre"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marteau_pierre" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marteau_diamantdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/marteau_bois"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marteau_bois" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marteau_diamantdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView25"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/sceptre_foudre"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sceptre_foudroyant" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sceptre_foudredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView27"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/sceptre_feu"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sceptre_flamboyant" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sceptre_feudesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView29"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/harpon"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/harpon" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/harpondesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView30"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/brochette_tentacule"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/brochatte_tentacules" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brochette_tentaculedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView32"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/soupe_poisson"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/soupe_poisson" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soupe_poissondesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView34"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/citrine"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/citrine" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pierredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView37"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/saphir"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/saphir" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pierredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView39"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/rubis"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rubis" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pierredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView41"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/emeraude"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emeraude" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pierredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView42"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/baton_or"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/or_baton" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orbatondesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView44"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/cerclageor"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/or_cerclage" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orcerclagedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView46"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/faux_obsi"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsibinette" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/outil_obsidesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView48"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/hache_obsi"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsihache" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/outil_obsidesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView51"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/pelle_obsi"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsipelle" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/outil_obsidesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView52"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/pioche_obsi"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsipioche" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/outil_obsidesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView55"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/obsi"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obsidian" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obsidesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView56"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/baton_obsi"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baton_obsi" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obsidesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView59"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/cerclage_obsi"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cerclage_obsi" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/obsidesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView60"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/eprouvette"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eprouvette" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eprouvettedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView63"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/fiole_agra_leg"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eprouvette_taille1" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fiole_agra_legdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView65"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/fiole_agra_for"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eprouvette_taille2" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fiole_agra_fordesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView66"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/fiole_retre_leger"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fiole_retre1" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fiole_retre_legerdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView69"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/fiole_retre_fort"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fiole_retre2" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fiole_retre_fortdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView70"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/gobeur"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gobeur" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gobeurdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView73"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/rideaux"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rideaux" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rideauxdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView74"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/scaphandre_casque"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scaphandre_casque" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scaphandredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView77"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/scaphandre_corps"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scaphandre_corps" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scaphandredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView78"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/scaphandre_jambe"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scaphandre_jambieres" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scaphandredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView81"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/scaphandre_pied"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scaphandre_bottes" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scaphandredesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView83"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/escalier_tissu"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/escalier_tissu_blanc" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/escalier_tissudesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView84"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/ardoise"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ardoises" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ardoisedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView86"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/escalier_ardoise"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ardoises_escalier" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ardoisedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView129"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/escalier_brique"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/brique_escalier" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView128"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ardoisedesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView89"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/barrefer"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/barre_de_fer" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barreferdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView91"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/cerclage_fer"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cerclages" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barreferdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView93"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/barriere_fer"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/barriere_fer" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forgerondesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView95"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/herse"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/herse" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView94"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forgerondesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView97"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/couvert"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/couverts" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView96"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/couvertdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView99"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/glowpurifie"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/glowstone_pure" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView98"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/glowdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView101"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/lanterneglow"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lanterne" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/glowdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView103"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/lanterneglowpure"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lanterne_pure" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/glowdesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView105"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/selle"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selle" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selledesc"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView107"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/tonneau"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tonneau" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView109"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/chaise"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chaise" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView108"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView111"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/tabouret"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tabouret" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView113"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/bancSans"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/banc_sans_pied" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView114"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/bancAvec"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/banc_avec_pied" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView116"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/etagere"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/etagere" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView118"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/table_basse"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/table_basse" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView119"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView120"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/table_poteau"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/table_poteau_centre" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView123"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/table_angle"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/table_poteau_angle" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView124"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/table_plateau"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/table_plateau" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menuisier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView126"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/paille"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/paille" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView140"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pailledesc"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView127"
+                android:layout_width="225px"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20px"
+                android:text="@string/paille_escalier"
+                android:textColor="#000000" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ImageView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/paille_escalier" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/TextView141"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pailleescalierdesc"
+                android:textColor="#000000" />
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

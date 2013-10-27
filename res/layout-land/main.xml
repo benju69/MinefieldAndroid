@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/paperbg"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="vertical" android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" android:layout_weight="1">
+
+            <Button
+                android:id="@+id/buttonNews"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybuttonmf"
+                android:drawableTop="@drawable/sign"
+                android:gravity="center"
+                android:text="@string/news"
+                android:textColor="#E6E5C7"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonForum"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybuttonmf"
+                android:drawableTop="@drawable/paper"
+                android:text="@string/forum"
+                android:textColor="#E6E5C7"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonCodex"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybuttonmf"
+                android:drawableTop="@drawable/book"
+                android:text="@string/codex"
+                android:textColor="#E6E5C7"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonBourse"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybuttonmf"
+                android:drawableTop="@drawable/or"
+                android:text="@string/bourse"
+                android:textColor="#E6E5C7"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:orientation="horizontal" android:layout_weight="1">
+
+            <Button
+                android:id="@+id/buttonCartes"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybuttonmf"
+                android:drawableTop="@drawable/map"
+                android:text="@string/cartes"
+                android:textColor="#E6E5C7"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonFAQ"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybuttonmf"
+                android:drawableTop="@drawable/faq"
+                android:text="@string/faq"
+                android:textColor="#E6E5C7"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonProfil"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybuttonmf"
+                android:drawableTop="@drawable/profil"
+                android:text="@string/profil"
+                android:textColor="#E6E5C7"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonLiens"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/mybuttonmf"
+                android:drawableTop="@drawable/redstone"
+                android:text="@string/liens"
+                android:textColor="#E6E5C7"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:layout_weight="3.76" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:paddingTop="10px" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/buttonNews"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/mybuttonmf"
+                    android:drawableTop="@drawable/iconsign"
+                    android:minHeight="60px"
+                    android:minWidth="120px"
+                    android:text="@string/news"
+                    android:textColor="#E6E5C7"
+                    android:textSize="21px" />
+
+                <Button
+                    android:id="@+id/buttonForum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/mybuttonmf"
+                    android:drawableTop="@drawable/iconpaper"
+                    android:minHeight="60px"
+                    android:minWidth="120px"
+                    android:text="@string/forum"
+                    android:textColor="#E6E5C7"
+                    android:textSize="21px" />
+
+                <Button
+                    android:id="@+id/buttonCodex"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/mybuttonmf"
+                    android:drawableTop="@drawable/iconbook"
+                    android:minHeight="60px"
+                    android:minWidth="120px"
+                    android:text="@string/codex"
+                    android:textColor="#E6E5C7"
+                    android:textSize="21px" />
+
+                <Button
+                    android:id="@+id/buttonBourse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/mybuttonmf"
+                    android:drawableTop="@drawable/or"
+                    android:minHeight="60px"
+                    android:minWidth="120px"
+                    android:text="@string/bourse"
+                    android:textColor="#E6E5C7"
+                    android:textSize="21px" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10px" >
+
+                <Button
+                    android:id="@+id/buttonCartes"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/mybuttonmf"
+                    android:drawableTop="@drawable/iconmap"
+                    android:minHeight="60px"
+                    android:minWidth="120px"
+                    android:text="@string/cartes"
+                    android:textColor="#E6E5C7"
+                    android:textSize="21px" />
+
+                <Button
+                    android:id="@+id/buttonFAQ"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/mybuttonmf"
+                    android:drawableTop="@drawable/faq"
+                    android:minHeight="60px"
+                    android:minWidth="120px"
+                    android:text="@string/faq"
+                    android:textColor="#E6E5C7"
+                    android:textSize="21px" />
+
+                <Button
+                    android:id="@+id/buttonLiens"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/mybuttonmf"
+                    android:drawableTop="@drawable/redstoneicon"
+                    android:minHeight="60px"
+                    android:minWidth="120px"
+                    android:text="@string/liens"
+                    android:textColor="#E6E5C7"
+                    android:textSize="21px" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    -->
+
+    <RelativeLayout
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/footer"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/facebookicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="5px"
+            android:src="@drawable/facebookmf" />
+
+        <!--  <TextView
+            android:id="@+id/textMain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="bottom|right"
+            android:paddingRight="10px"
+            android:text="@string/textmain"
+            android:textColor="#ebebeb" />
+ -->
+        <ImageView
+            android:id="@+id/twittericon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/facebookicon"
+            android:clickable="true"
+            android:padding="5px"
+            android:src="@drawable/twittermf" />
+    </RelativeLayout>
+
+</LinearLayout>

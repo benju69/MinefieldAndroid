@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/paperbg"
+    android:orientation="vertical" >
+
+    <!-- 
+    <TextView
+        android:id="@+id/TitreLiens"
+        android:layout_width="fill_parent"
+		android:layout_height="46dp"
+        android:layout_gravity="top|center"
+        android:background="@drawable/bglaine"
+        android:drawableLeft="@drawable/redstone"
+        android:gravity="center"
+        android:padding="10px"
+        android:text="@string/liens_title"
+        android:textColor="#FFFFFF"
+        android:textSize="18px" >
+    </TextView> -->
+
+    <ListView
+        android:id="@+id/listLiens"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000" >
+    </ListView>
+
+</LinearLayout>

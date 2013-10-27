@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/paperbg"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <!-- 
+    <TextView
+        android:id="@+id/TitreForum"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="top|center"
+        android:background="@drawable/bglaine"
+        android:drawableLeft="@drawable/paper"
+        android:gravity="center"
+        android:padding="10px"
+        android:text="@string/forum_title"
+        android:textColor="#FFFFFF"
+        android:textSize="18px" >
+    </TextView>
+     -->
+
+    <WebView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webviewforum"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Minefield</string>
+	<string name="news">News</string>
+	<string name="codex">Codex</string>
+	<string name="forum">Forum</string>
+	<string name="cartes">Carte</string>
+	<string name="faq">FAQ</string>
+	<string name="bourse">Bourse</string>
+	<string name="liens">Liens</string>
+	
+	<string name="about">A Propos</string>
+	<string name="quit">Quitter</string>
+	<string name="share">Partager</string>
+
+	<string name="AProposTitre">Minefield App v2.2</string>
+	<string name="AProposText">Tout Minefield dans votre poche !\n\n2013\nRéalisé par benju\nPour Minefield.fr\n\nN\'hésitez pas à noter l\'app sur le market !\nPour tout commentaires, vous pouvez passer par le forum ou m\'envoyer un mail.\n\nMinefield est le plus grand serveur minecraft de France.\nMinefield is the largest minecraft server of France.</string>
+		
+	<string name="news_title">Nouvelles Stendeliennes</string>
+	<string name="codex_title">Codex : Recettes de Minefield</string>
+	<string name="carte_title">Cartes</string>
+	<string name="faq_title">Foire aux questions : Bases</string>
+	<string name="liens_title">Liens utiles</string>
+	<string name="bourse_title">Bourse de Minefield</string>
+	<string name="forum_title">Forum</string>
+
+	<string name="supportbois"> - Support en bois</string>
+	<string name="supportboisdesc">Spécialité : Menuisier\nCe bloc décoratif change de
+		forme, selon que vous placiez un bloc en face de lui, sur lui, ou en
+		diagonale-bas de lui. </string>
+	<string name="supportfer"> - Support en fer</string>
+	<string name="supportferdesc">Spécialité : Forgeron\nCe bloc décoratif change de
+		forme, selon que vous placiez un bloc en face de lui, sur lui, ou en
+		diagonale-bas de lui. </string>
+	<string name="obsiepee"> - L\'épée d\'obsidienne</string>
+	<string name="obsiepeedesc">Spécialité : L\'armurier\nCette arme inflige plus
+		de dommages que le fer, mais moins qu\'une lame en diamant. Sa
+		durabilité est également à mi-chemin entre le fer et le diamant.
+	</string>
+	<string name="obsi_armuredesc">Spécialité : L\'armurier\nCette pièce d\'armure a
+		une durabilité et une résistance à mi-chemin entre le fer et le
+		diamant.</string>
+	<string name="obsi_casque"> - Le casque d\'obsidienne</string>
+	<string name="obsi_armure"> - Le plastron d\'obsidienne</string>
+	<string name="obsi_jambe"> - Les jambières d\'obsidienne</string>
+	<string name="obsi_pied"> - Les bottes d\'obsidienne</string>
+	<string name="hacheparfaite"> - La Hache parfaite</string>
+	<string name="hacheparfaitedesc">Spécialité : Le Bûcheron\nOu Hache sertie
+		d\'émeraudes. Casse les troncs en un coup, et les feuilles ne
+		l\'émoussent pas. Les autres matériaux l\'endommagent normalement.
+		Durabilité égale à celle de la hache en diamant. Seul le bûcheron peut
+		l\'utiliser et la crafter.</string>
+	<string name="marteau_diamant"> - Le marteau et burin en diamant</string>
+	<string name="marteau_diamantdesc">Spécialité : Le Maçon\nLe marteau et burin n\'est
+		utilisable que par les maçons, et permet d\'aplanir les escaliers en
+		bois, les escaliers en paille, les escaliers en cobblestone, les
+		escaliers en ardoise.</string>
+	<string name="marteau_or"> - Le marteau et burin en or</string>
+	<string name="marteau_fer"> - Le marteau et burin en fer</string>
+	<string name="marteau_pierre"> - Le marteau et burin en pierre</string>
+	<string name="marteau_bois"> - Le marteau et burin en bois</string>
+	<string name="sceptre_foudre"> - Le Sceptre foudroyant</string>
+	<string name="sceptre_foudredesc">Spécialité : Le Mage\nLe sceptre a 100
+		utilisations, et lance des éclairs ! Il est utilisable par tout le
+		monde, et est inoffensif.</string>
+	<string name="sceptre_feu"> - Le Sceptre flamboyant</string>
+	<string name="sceptre_feudesc">Spécialité : Le Mage\nLe sceptre a 100
+		utilisations, et lance des boules de feu ! Il est utilisable par tout
+		le monde et est inoffensif.</string>
+	<string name="harpon"> - Le harpon</string>
+	<string name="harpondesc">Spécialité : Le Pêcheur\nLe harpon ne peut être
+		utilisé que par le pêcheur, et lui permet de récupérer des tentacules
+		sur les poulpes.</string>
+	<string name="brochette_tentacule"> - La Brochette de tentacules</string>
+	<string name="brochette_tentaculedesc">Spécialité : Le Pêcheur et le Tavernier\nCette
+		brochette rend la totalité des points de vie.</string>
+	<string name="soupe_poisson"> - La Soupe de poisson</string>
+	<string name="soupe_poissondesc">Spécialité : Le Pêcheur et Le Tavernier\nCette
+		soupe requiert du poisson cuit, et redonne la moitié des points de
+		vie.</string>
+	<string name="citrine"> - La Citrine</string>
+	<string name="pierredesc">Spécialité : Le Joaillier\nCette pierre sert dans
+		d\'autres recettes.</string>
+	<string name="saphir"> - Le Saphir</string>
+	<string name="rubis"> - Le Rubis</string>
+	<string name="emeraude"> - L\'Emeraude</string>
+	<string name="baton_or"> - Le baton en or</string>
+	<string name="orbatondesc">Spécialité : Le Joaillier\nCe baton sert dans
+		d\'autres recettes.</string>
+	<string name="cerclageor"> - Le cerclage en or</string>
+	<string name="orcerclagedesc">Spécialité : Le Joaillier\nCe cerclage sert dans
+		d\'autres recettes.</string>
+	<string name="faux_obsi"> - La binnette ou faux en obsidienne</string>
+	<string name="outil_obsidesc">Spécialité : L\'Outilleur\nCet outil a la
+		durabilité moitié celle du diamant, et est aussi efficace que le
+		diamant.</string>
+	<string name="hache_obsi"> - La Hache en obsidienne</string>
+	<string name="pelle_obsi"> - La Pelle en obsidienne</string>
+	<string name="pioche_obsi"> - La Pioche en obsidienne</string>
+	<string name="obsi"> - Le Lingot d\'obsidienne</string>
+	<string name="obsidesc">Spécialité : Le forgeron\nSert pour différents
+		crafts en obsidienne. A faire fondre dans un four.</string>
+	<string name="baton_obsi"> - Le baton en obsidienne</string>
+	<string name="cerclage_obsi"> - Le Cerclage en obsidienne</string>
+	<string name="eprouvette"> - L\'eprouvette</string>
+	<string name="eprouvettedesc">Spécialité : Le Souffleur de verre\nSert pour les
+		différentes recettes de potions.</string>
+	<string name="fiole_agra_leg"> - La Fiole d\'agrandissement légère</string>
+	<string name="fiole_agra_legdesc">Spécialité : L\'Herboriste\nVous rend une fois et
+		demie plus grand pendant 5 minutes. Permet de sauter plus haut et
+		d\'avoir la classe.</string>
+	<string name="fiole_agra_for"> - La Fiole d\'agrandissement forte</string>
+	<string name="fiole_agra_fordesc">Spécialité : L\'Herboriste\nVous rend deux fois
+		plus grand pendant 5 minutes. Permet de sauter encore plus haut et
+		d\'avoir encore plus la classe.</string>
+	<string name="fiole_retre_leger"> - La Fiole de rétrécissement légère</string>
+	<string name="fiole_retre_legerdesc">Spécialité : L\'Herboriste\nVous rend deux fois
+		plus petit pendant 5 minutes. Permet de passer dans des tunnels.
+	</string>
+	<string name="fiole_retre_fort"> - La Fiole de rétrécissement forte</string>
+	<string name="fiole_retre_fortdesc">Spécialité : L\'Herboriste\nVous rend trois fois
+		plus petit pendant 5 minutes. Permet de passer dans des tunnels.
+	</string>
+	<string name="gobeur"> - Le Gobeur de monstre</string>
+	<string name="gobeurdesc">Spécialité : L\'indigène à la con du Chaos\nCliquez
+		sur un animal pour l\'enfermer à l\'intérieur, sert uniquement pour la
+		déco.</string>
+	<string name="rideaux"> - Les rideaux</string>
+	<string name="rideauxdesc">Spécialité : Le Tisserand\nDisponible dans toutes
+		les couleurs. Idéal pour décorer les fenêtres</string>
+	<string name="scaphandre_casque"> - Scaphandre - Casque</string>
+	<string name="scaphandredesc">Spécialité : Le Pêcheur\nPermet de mieux voir et de
+		respirer sous l\'eau</string>
+	<string name="scaphandre_corps"> - Scaphandre - Corps</string>
+	<string name="scaphandre_jambe"> - Scaphandre - Jambières</string>
+	<string name="scaphandre_pied"> - Scaphandre - Bottes</string>
+	<string name="escalier_tissu"> - Escalier en laine (ou tissu)</string>
+	<string name="escalier_tissudesc">Spécialité : Le Tisserand\nDisponible dans toutes
+		les couleurs. Peut servir de canapé !</string>
+	<string name="ardoise"> - Le bloc d\'ardoise</string>
+	<string name="ardoisedesc">Spécialité : Le Maçon\nPour la déco et les toits
+	</string>
+	<string name="escalier_ardoise"> - L\'Escalier en ardoises</string>
+	<string name="barrefer"> - La barre de fer</string>
+	<string name="barreferdesc">Spécialité : Le Forgeron\nSert pour d\'autres
+		crafts</string>
+	<string name="cerclage_fer"> - Les Cerclages en fer</string>
+	<string name="barriere_fer"> - La barrière en fer</string>
+	<string name="forgerondesc">Spécialité : Le Forgeron</string>
+	<string name="herse"> - La herse</string>
+	<string name="couvert"> - Les couverts</string>
+	<string name="couvertdesc">Spécialité : Le Joaillier</string>
+	<string name="glowpurifie"> - La Glowstone purifié</string>
+	<string name="glowdesc">Spécialité : L\'Indigène à la con du Chaos.\nFait
+		de la lumière.</string>
+	<string name="lanterneglow"> - La Lanterne de glowstone</string>
+	<string name="lanterneglowpure"> - La Lanterne de glowstone purifié</string>
+	<string name="selle"> - La selle</string>
+	<string name="selledesc">Spécialité : L\'Aventurier et le Fermier.\nPermet
+		de monter les animaux :)</string>
+	<string name="tonneau"> - Le Tonneau</string>
+	<string name="menuisier">Spécialité : Le Menuisier</string>
+	<string name="chaise"> - La chaise</string>
+	<string name="tabouret"> - Le Tabouret</string>
+	<string name="bancSans"> - Le Banc (sans pied)</string>
+	<string name="bancAvec"> - Le Banc (avec pied)</string>
+	<string name="etagere"> - L\'Étagère</string>
+	<string name="table_basse"> - La Table basse</string>
+	<string name="table_poteau"> - La Table (avec poteau central)</string>
+	<string name="table_angle"> - La Table (avec poteau dans l\'angle)</string>
+	<string name="table_plateau"> - La Table (plateau uniquement)</string>
+	<string name="paille"> - La Paille</string>
+	<string name="paille_escalier"> - L\'Escalier en paille</string>
+	<string name="escalier_brique"> - L\'Escalier en brique</string>
+	<string name="poulie"> - La poulie</string>
+	<string name="pouliedesc">Spécialité : L\'Ingénieur\nUne poulie peut tirer
+		jusqu\'à 7 chaînes et 10 herses. Si elle est alimentée en redstone, la
+		herse se met à monter, autrement, la herse redescend. </string>
+	<string name="chaine"> - La chaîne</string>
+	<string name="chainedesc">Spécialité : L\'Ingénieur\nFait le lien entre une
+		poulie et une herse.</string>
+	<string name="vis"> - La vis</string>
+	<string name="visdesc">Spécialité : L\'Outilleur et le Forgeron\nSert pour
+		la poulie.</string>
+	<string name="cape"> - La cape basique de laine</string>
+    <string name="capedesc">Spécialité : Le Tisserand\nDisponible en 16 couleurs !</string>
+    <string name="marteauobsi"> - Le marteau et burin en obsidienne (ne marche pas IG)</string>
+    <string name="pailledesc">La paille est craftable pour tout le monde ! :)</string>
+    <string name="pailleescalierdesc">Pour faire vos toits en chaume !\n</string>
+
+	<string name="faq_text">
+	- Qu\'est-ce que Minefield ?\n\n
+	Minefield est l\'un des serveurs les plus importants (en taille et en
+	réputation) de la communauté française de Minecraft (voir le plus
+	important).\n\n\n
+
+	- A quelle période correspond le role-play (RP) du serveur ?\n\n
+	La période du serveur est médiévale et ne prend pas place dans une
+	période spécifique et correspondante du Moyen-Age occidental. Mais
+	plus dans un esprit médiéval avec tout ce que cela implique
+	d\'influences “heroic fantasy”, “fantasy”, roman historique, etc…\n
+	En effet les squelettes et autres monstres n\'existaient pas ! Mais à
+	coté de ça, un certain joueur a tenté de reproduire le château de
+	Chambord. Du coup, pour faire suite à une remarque sur cette FAQ, le
+	RP est un stéréotype uchronique (© nalaf).\n\n\n
+
+	- Comment puis je intégrer la communauté ?\n\n
+	Lorsque vous arrivez la première fois sur le serveur, vous n\'êtes qu\'un
+	simple vagabond. En tant que tel, vous ne pouvez strictement rien
+	faire, ni même parler !\n
+	Vous pouvez tout de même contacter quelqu\'un en jeu grâce à la commande
+	”/m [pseudo] [message]” (cf. partie de cette FAQ portant sur cette
+	commande). En cas de force majeur (si vous êtes bloqué par exemple),
+	contactez un modérateur ou un administrateur en jeu grâce à cette
+	commande (pour savoir s\'il y a un modérateur ou un administrateur,
+	utilisez la commande ”/who”, les pseudos rouge clair et rouge foncé
+	sont des modos et des administrateurs). En cas d\'absence de réponse,
+	ou en absence de modos/admins, vous pouvez exceptionnellement utiliser
+	la commande ”/me [message]” pour demander de l\'aide. Tout autre usage
+	est interdit et est passible d\'un kick suivi d\'un ban de 24 h en cas
+	de récidive.\n
+	Pour pouvoir espérer commencer à participer il faut être minimum de rang
+	paysan. Pour cela, il faut poster une candidature et connaître
+	quasiment par cœur les règles du serveur ! Toutes les informations se
+	trouve dans la section dédiée : Demande de grade/de statut
+	social.\n\n\n
+
+	- Combien de temps vais-je devoir attendre pour que ma candidature soit
+	traitée ?\n\n
+	Les délais de traitement sont très variables ! Il peuvent aller de 4
+	jours à plus d\'une semaine pour les candidatures de paysans, à
+	quelques semaines pour les grades supérieurs. Il est nécessaire de
+	rappeler que TOUTES sollicitations pour que nous traitions votre
+	demande provoquera immédiatement une augmentation de ce délai. Si
+	malgré cela, vous persistez dans votre erreur la candidature pourra
+	être tout simplement refusée.\n\n\n
+
+	- Qu\'est-ce que Minecraft ?\n\n
+	Minecraft est un jeu vidéo créé par Notch prenant place dans un univers cubique
+	dans lequel le joueur peut interagir avec TOUT son environnement. La
+	seule limite de ce jeu est l\'imagination. Il est possible d\'y
+	récupérer les blocs présents sur la carte (mine) et de les associer
+	pour obtenir d\'autres éléments (craft), et ainsi créer les choses les
+	plus folles ! Le jeu se présente sous la forme d\'un exécutable Java
+	(disponible ici : http://www.minecraft.net), mais pour pouvoir jouer
+	il vous faudra créer un compte payant (15 € à l\'heure actuelle). Une
+	fois ce compte créé vous aurez accès aux deux versants du jeu, à
+	savoir : - le solo, qui consiste à vivre l\'expérience Minecraft dans
+	son coin, sans personne d\'autre que les animaux et les monstres pour
+	compagnons. - le multiplayer, qui consiste à jouer à la version solo à
+	plusieurs sur un serveur prévu pour. Minefield fait parti de cette
+	catégorie (à quelques changements près).\n\n\n
+
+	- Qu\'est-ce que le "client" (par rapport au serveur) ?\n\n
+	Dans le cadre du multiplayer, l\'exécutable Java que vous avez récupéré et
+	qui vous sert à jouer en solo, devient le client du serveur, il ne
+	sert plus qu\'à afficher les informations du serveur et d\'interface
+	pour indiquer au serveur les actions entreprises.\n\n\n
+
+	- Qu\'est-ce qu\'un "chunk" ?\n\n
+	Un “chunk” est une portion de la carte du jeu d\'une taille de 16 blocs
+	de longs sur 16 blocs de large pour une hauteur de 128 blocs. Pour les
+	problèmes de “chunk” voir ce point ailleurs dans la FAQ.\n\n\n
+
+	- Pourquoi y a-t-il des trous dans la carte ?\n\n
+	Les trous dans la carte peuvent avoir deux origines : - un joueur avec
+	trop de temps libre et ne sachant pas qu\'il vaut mieux éviter de
+	faire ce genre de chose - un bug de “chunk”, c\'est à dire une partie
+	de la carte non transmise par le serveur. Ce bug provient du code
+	serveur de Notch et n\'a rien à voir avec le serveur en lui même, sur
+	ses performances ou sur le nombre de joueurs. Il est prohibé
+	d\'utiliser les bug de “chunk” pour voir ce qui se cache en profondeur
+	de la carte. En règle générale, lors de la reconnexion, le “chunk”
+	devrait se charger correctement.\n\n\n
+
+	- Pourquoi quand je creuse, le bloc réapparait ?\n\n
+	Ce phénomène s\'explique de trois façons :\n
+	- le lag, qui fait que le serveur n\'a pas pris en compte le cassage de
+	ce bloc, ou que l\'information n\'est pas encore transmise au client
+	(pour savoir de quoi il s\'agit, cf “Qu\'est-ce que le client ?”).\n
+	- la zone est sous l\'effet d\'un “cuboïdage”, c\'est à dire que la
+	zone à été protégée à l\'aide d\'un plug-in coté serveur pour empêcher
+	toute personne non autorisée à accéder à cette zone. Aucune action est
+	alors possible, impossible de poser un cube ou d\'en casser un
+	notamment. (Pour plus de précision sur les “cuboïdes”, cf. “Qu\'est-ce
+	qu\'un “cuboïde”, Qu\'est-ce que le “cuboïdage” ?”)\n
+	- vous avez atteint la limite de ce monde, car quand on creuse vers une
+	frontière, le bloc réapparait.\n\n\n
+	
+	- Qu\'est-ce qu\'un "cuboïde", Qu\'est-ce que le cuboïdage" ?
+
+	Un cuboïde est une zone protégée de la carte où toute action est impossible, sauf si l\'accès à la zone est autorisée au joueur. L\'exemple le plus connu est la zone du “spawn” (point d\'apparition des joueurs sur le serveur lors de leur première connection), cette zone qui représente à peu près un carré de 30 blocs sur 30 blocs est, dans la version de base du jeu (version “vanilla”), protégée de toute modification, à part par les personnes désignées comme opérateurs du serveur.
+	
+	De plus la zone de New-Stendel et sa banlieue est sous “cuboïde”, donc il est normal que vous ne puissiez rien y prendre, ni rien y construire.
+	
+	A l\'aide d\'un plug-in coté serveur, ce principe est réutilisable sur d\'autre portion de la carte défini par les empereurs (administrateurs) et les gouverneurs (modérateurs) au profit de tout joueur en faisant la demande. Pour cela, le joueur doit respecter certaines règles (cf. “Quelles sont les règles pour un “cuboïdage” réussi ?”).
+	
+	Pour s\'assurer de la présence d\'un “cuboïde”, vous pouvez vous équiper d\'une épée en bois et faire un clic droit sur le bloc coupable de s\'être soustrait ainsi à vos désirs.
+	
+	Exemple de texte apparaissant à l\'écran avec l\'épée en bois :
+	
+	----     nom_du_cubo    ----
+	Flags : protection
+	Allowed players : o:Dunidan skayloss
+	
+	Dans, l\'exemple ci-dessus, le nom du cubo se trouve entre les tirets, et c\'est ce nom qu\'il faut utiliser dans les commandes ”/cmod”. La ligne du dessus présente les joueurs autorisé. Lorsqu\'il y a un “o:” devant un nom, c\'est qu\'il s\'agit d\'un des propriétaires (owner) du “cuboïde”.
+	
+	
+	- Quelles sont les règles pour un "cuboïdage" réussi ?
+	
+	Un “cuboïde” est autorisé aux conditions suivantes : - respecter la surface autorisée selon les grades (paysans : 10×10 / cubo / 25 x 25, etc…)
+	
+	- être sûr que la zone n\'est pas déjà cuboïdée
+	
+	- payer la somme en PA correspondante à la superficie en cube de la zone convertie en PA (donc de 100 PA (10 x 10) à 625 PA (25 x 25). (La commande pour payer est ”/pay [montant]”, elle se substitue à la commande ”/money pay”, et permets un paiement direct au serveur.)
+	
+	- avoir placé 4 blocs en forme de rectangle horizontal qui constituera le niveau zéro à partir duquel la zone “cuboïdée” sera un volume de 15 blocs au dessus de ce point et de 15 blocs en dessous de ce point. Pour plus de clarté vous pouvez surmonter ces blocs d\'une torche, cela facilitera le travail des “cuboïdeurs”. Dans le cas d\'une structure à cuboïder de type maison, vous pouvez poser des torches sur le coté des cubes à prendre en compte.
+	
+	A noter que dans le cas où la parcelle fait plus de 500 PA (grosso modo 22 x 23), alors le “cuboïdage” sera fait sur l\'ensemble de la hauteur de la carte sans limitation (highprotect). C\'est à dire que le “cuboïde” ira du bedrock au point le plus élevé dans le ciel (0, +128).
+	
+	
+	- Puis je passer par le forum pour faire une demande de cuboïdage ?
+	
+	Non, tout se passe en jeu. Contactez les modérateurs (rouge clair dans le chat) pour qu\'ils effectuent votre cubo.
+	
+	
+	- Que ce passe-t-il si je veux faire augmenter mon "cuboïde" ?
+	
+	Pour faire augmenter la taille de son “cuboïde”, il faut bien respecter les restrictions de rang d\'une part et payer la différence entre le “cuboïde” demandé et le “cuboïde” existant auquel s\'ajoute 25 PAs de déplacement. Du coup, vous ne repayez pas l\'ancien.Dans les faits votre ancien “cuboïde” est détruit et le nouveau vient le remplacer.
+	
+	
+	- Comment savoir si je peux m\'installer dans ce charmant coin que je viens de découvrir ou comment être sûr que je vais pas me faire dégager après une semaine de construction intensive ?
+	
+	La meilleur solution pour éviter la plupart des gaffes est la suivante :
+	
+	1/ Vérifier sur la partie chantier et à l\'aide de la carte que vous n\'êtes pas installé sur la zone d\'un chantier en cours ou à venir. Il fortement déconseillé, voire interdit, de construire contre les frontières d\'un projet !
+	
+	2/ Si vous souhaitez vous installer avec d\'autres personnes, posez des panneaux près de chez eux pour leur demander si vous pouvez construire dans le coin. Vous pouvez également les contacter par MP sur le forum, et s\'il s\'agit d\'une communauté établie, directement sur les posts du forum correspondant. Cela aura aussi l\'intérêt de vous faire connaître sur le serveur ! Dans le cas où vous vous installez près d\'un projet (à portée de vue en gros), merci de quand même demander si cela gène ou pas. En cas de désaccord, contacter un modérateur pour arbitrage.
+	
+	3/ Que vous soyez dans la nature, seul et loin de tous, surtout ne partez pas du principe que vous pouvez faire ce que vous voulez. De la même façon, si vous n\'êtes pas seul, limitez vous à une zone précise. Et suivez les règles de construction (cr. “Quelles sont les règles à respecter pour construire sa maison ?”)
+	
+	
+	- Quelles sont les règles à respecter pour construire sa maison ?
+	
+	Les règles sont simples, le serveur se veut médiéval. Il peut exister quelques exceptions, sauvegardées du courroux des empereurs par la qualité et/ou l\'originalité de la réalisation. Dans le cas où vous souhaitiez faire quelque chose de particulier, venez d\'abord en parler sur le forum, cela vous évitera le risque de voir votre construction rasée. Si vous ne savez pas trop quoi faire, n\'hésitez pas à parcourir le guide rédigé par Pyrix sur les règles de construction à New Stendel. Il est d\'une aide précieuse.
+	
+	
+	- De l\'importance de mettre son nom sur ses constructions.
+	
+	Il est primordial de mettre un panneau sur ou à coté de votre construction quelqu\'elle soit. Cela présente trois avantages :
+	
+	1/ Le constructeur est connu comme le propriétaire
+	
+	2/ En cas de soucis de construction, nous vous contacterons d\'abord IG, et si nécessaire par MP sur le forum. En l\'absence de panneau une construction sera détruite beaucoup plus rapidement qu\'avec.
+	
+	3/ Si vous voulez faire “cuboïder” la zone alors que vous n\'êtes pas connecté, cela sera plus aisé de la repérer.
+	
+	
+	- Comment acheter une maison ?
+	
+	S\'il s\'agit d\'une maison dans une communauté de joueurs, comme par exemple, complétement au hasard : Nouvelle Azur, alors il faut voir directement avec les responsables de la communauté. S\'il s\'agit d\'une maison à New Stendel, il faut déjà avoir le rang de citoyen, et alors seulement, faire une demande d\'acquisition sur le forum.
+	
+	
+	- Qu\'est-ce que les PAs ?
+	
+	Les PAs constituent la monnaie du jeu, ils sont obtenus soit quotidiennement à hauteur de 3 PAs, ou peuvent être achetées directement sur le site. Elles vous serviront dans un premier temps dans le jeu, comme monnaie pour le troc et l\'achat. Elles servent aussi dans le shop des admins et permettent d\'acheter directement des items, outils, sans avoir à demander à un administrateur.
+	
+	
+	- Comment obtenir des PAs ?
+	
+	En proposant vos services rémunérés à d\'autres joueurs.
+	
+	En vendant des objets à d\'autres joueurs (seulement aux marchands et en leur envoyant un message personnel.
+	
+	En ayant un projet qui motivera les autres joueurs, et auxquels vous pourrez demander une participation financière (création d\'une trésorerie, achat de matériaux, etc)
+	
+	En répondant aux appels d\'offre de la ville (regardez les offres d\'emploi sur le forum, nous mettrons d\'autres appels de temps en temps).
+	
+	En vous connectant tous les jours, à partir du deuxième jour, vous serez crédité de 3PA pour vous remercier de votre fidélité.
+	
+	En participant à des jeux concours ponctuels, qui seront mis en avant sur le forum.
+	
+	En achetant 100 PA pour un euro. (disponible actuellement en allopass dans le shop, et au cas par cas pour les sommes plus grandes, via le “donate paypal” de la home)
+	
+	
+	- Quelles sont les règles du commerce ?
+	
+	Les joueurs sont autorisés à faire toutes opérations de troc qu\'ils souhaitent, en revanche toute transaction impliquant des PAs nécessite que l\'un des participants soit un commerçant/marchand. Pour l\'être, il faut obligatoirement acquérir une licence via le forum. Cette licence ne s\'obtient pas gratuitement mais coûte 500 PAs. Un joueur lambda est autorisé à vendre des biens sans licence à n\'importe quel commerçant ou marchand. Dans le cas d\'une transaction portant sur une parcelle ; le joueur mettant en vente son terrain ne se fera pas rembourser son cuboide. Par contre ce dernier est libre de fixer le prix de vente qu\'il souhaite. Dans le cas de transactions portant sur un service (travail, transport, ingénierie (redstone)), il est également nécessaire de posséder une licence de commerce.
+	
+	
+	- Qui peut commercer ?
+	
+	Seuls les détenteurs d\'une licence de commerçants peuvent participer à un transfert de ressources contre de l\'argent. Seuls les commerçants ayant eu le grade de citoyen sont autorisés à vendre sur Stendel (la capitale), les autres pourront vendre partout ailleurs.
+	
+	
+	- Qui peut ouvrir un commerce ?
+	
+	Cette question peut paraître évidente, mais ce n\'est pas le cas. Seul les possesseurs d\'une licence peuvent ouvrir une échoppe/commerce/grand magasin et cela quelques soit l\'endroit sur la carte.
+	
+	
+	- Comment parler en privé sur le channel en jeu ?
+	
+	La commande à utiliser pour envoyer un message à un unique joueur est : ”/m [pseudo] [message]”, sans les guillemets (évidemment) et avec : [pseudo] : Le pseudo du joueur destinataire sans pour autant être obligé de l\'écrire en entier, il faut juste que le nombre de caractères soit suffisant pour le distinguer des autres.
+	
+	Exemples : Pour envoyer un message à Tota1, s\'il existe un Tota2, il est possible de taper la partie du pseudo qui permet de les distinguer des autres, ici “ta1” et “ta2”.
+	
+	Et [message] : Le message à envoyer qui ne peut pas faire plus d\'une ligne et demie.
+	
+	Il est possible de renvoyer un message à la dernière personne à qui vous avez envoyé un message à l\'aide de la commande ”/r [message]”. Attention : Cette commande peut faire penser à d\'autres commandes dans d\'autres MMO qui permet de répondre en guise de réponse au dernier interlocuteur, ce n\'est pas le cas ! Elle permet juste de s\'abstenir d\'écrire le pseudo à chaque fois.
+	
+	
+	- Comment décrire une action sur le channel en jeu ?
+	
+	La commande permettant de signifier des actions est ”/me [message]”, le résultat est l\'apparition d\'un message commençant par “* [votre pseudo] [message]”. Faites bien attention de ne pas écrire cela : ”/me Toto a trouvé du diamant !”, car cela apparaitra comme ça : “*Toto Toto a trouvé du diamant !”. De la même façon, utiliser cette commande pour parler sur le chan est mal venue, en particulier pour les vagabonds.
+	
+	
+	- Comment puis-je réserver une zone pour construire mon gigantesque temple inca en prévision de 2012 ?
+	
+	Vous pouvez faire une demande sur la partie “Chantier” du forum, en utilisant le guide présent sur cette section du forum. Si votre projet est accepté, la zone vous sera réservée. Avant acceptation, la zone ne vous est pas réservée, le principe du “premier arrivé, premier servi” ne s\'applique pas.
+	
+	
+	- Où puis-je porter plainte pour vol/grief/meurtre/hack ?
+	
+	Si vous êtes victimes ou témoins d\'un méfait sur le serveur, vous pouvez le rapporter dans la section idoine, c\'est à dire “Port de plaintes”. Pour effectuer cette demande, il faut fournir des preuves de ce que vous avancez, sinon votre demande risque de ne pas être prise en compte.
+	
+	
+	- Comment porter plainte pour vol/grief/meurtre ?
+	
+	Pour effectuer un dépôt de plainte, il faut fournir des preuves de ce que vous avancez, sinon votre demande risque de ne pas être prise en compte, en tout premier lieux des screens shots sont bien venus, des positions IG, etc…
+	
+	
+	- Comment donner de l\'argent à un autre joueur ?
+	
+	La commande permettant de transférer de l\'argent à un joueur est : /money pay [pseudo] [montant] Pour la sélection du pseudo voir : “Comment parler en privé sur le channel en jeu ?”
+	
+	
+	- Où trouver une carte ? (Corollaire de "Par où c\'est Azur ?")
+	
+	La carte du serveur est actuellement disponible dans cette application, ainsi que sur le site et le forum. La carte du routard, faite par SoulKyuusei, précise les projets existants sur Minefield.
+	
+	Cette dernière vous permettra de déterminer où vous ne pouvez pas vous installer.
+	
+	
+	- Comment obtenir un grade ?
+	
+	Les grades s’obtiennent en déposant une demande motivée et sérieuse sur le fil correspondant. Il faut bien prendre en compte que le niveau demandé n’est pas à la portée du premier venu. Il s’agit donc de s’appliquer. Pour l’obtention des grades supérieurs à celui de paysan, une activité en jeu et une bonne réputation sont un plus non négligeable. Il est peu probable qu’après plusieurs avertissements ou un ban temporaire, votre citoyenneté vous soit facilement octroyée.
+	
+	
+	- Pourquoi je ne peux pas parler en tant que vagabond ?
+	
+	Les vagabonds ont perdu l’usage de la parole. En effet, suite à une recrudescence de flood dans le chat du jeu afin de poser des questions dont les réponses se trouvent sur le site, il a été décidé que les vagabonds seraient muets. Malgré tout en cas de nécessité, ils peuvent contacter un joueur en jeu en utilisant les messages privés (cf. “Comment parler en privé sur le channel en jeu ?”). Attention : L’usage de la commande de description d’action ”/me” est possible, en revanche tout abus sera puni d’un kick pouvant mener à un ban en cas d’abus répétés.
+	
+	
+	- Les rangs : Qu\'est-ce que c\'est, à quoi ça sert ?
+	
+	Les rangs sont des statuts délivrés aux joueurs afin de permettre une forme de différenciation entre : - les nouveaux venus non intégrés à la communauté (vagabonds) - les personnes acceptées dans la communauté (paysans) - les membres acceptés et investis dans la communauté (citoyens et voyageurs) - les joueurs désireux de pratiquer le commerce (marchands itinérants et commerçants) - les gens dont l’impact dans la communauté est reconnu comme primordial (nobles) - les forces de l’ordre (gouverneurs a.k.a modérateurs) - les dieux du serveur (empereurs a.k.a administrateurs)
+	
+	
+	- Qui paie du temps de jeu et pourquoi ?
+	
+	Les personnes devant posséder du temps de jeu (grâce à l’achat sur le “shop” du serveur) sont les voyageurs, les citoyens et les nobles. Cette “taxe” permet de financer le serveur. Vous pouvez ne pas payer de temps de jeu et rester paysan, cette taxe n\'est pas obligatoire et n\'est présent que pour aider au financement mensuel du serveur.
+	
+	
+	- Comment obtenir du temps de jeu ?
+	
+	Via le shop du site, chaque euro dépensé cette la partie octroie un montant en PA (avec un bonus, plus les quantités achetées sont grandes), mais EN PLUS vous octroie 30 jours de jeu (ce qui correspond aux 1 euros par mois).
+	
+	Le “temps de jeu” est donc quelque chose d\'indépendant aux PA et à l\'économie du jeu, et vous pouvez tout à fait arrêter du jour au lendemain d\'acheter du temps de jeu. A ce moment là, vous redeviendrez l\'équivalent de Paysan, sous le grade de destitué, et continuerez à ne pas avoir besoin de “temps de jeu” pour jouer.
+	
+	
+	- Les monstres sont ils activés sur le serveur ?
+	
+	Non, sur Stendel les monstres sont OFF. Cependant ils sont présents sur les autres mondes !
+	
+	
+	- Puis je utiliser les minecart/bateaux ?
+	
+	Depuis l\'ouverture de la gare ainsi que de Navis, les minecarts et bateaux sont autorisés.
+	
+	
+	- Comment contester un bannissement ?
+	
+	Les bannissements sont contestables dans la partie du forum réservée aux ports de plaintes. Ces contestations doivent être rigoureusement rédigées ! La demande doit être bien écrite et présenter les éléments de façon factuelles (c\'est-à-dire uniquement les faits, pas de jugement de valeurs). Alors seulement, la demande sera considérée.
+	
+	
+	- Quelles sont les conséquences d\'un bannissement ?
+	
+	Il existe deux conséquences au bannissement. La première concerne la perte totale de vos PAs. Ils sont confisqués purement et simplement. La deuxième conséquence est l’impossibilité de rejoindre le serveur pour une durée précise allant de quelques heures à l’éternité (si seulement elle à une fin).
+	
+	
+	- Quelles sont les conséquences d\'une éjection de serveur (kick) ?
+	
+	Le fait de se faire éjecter du serveur n’a pas d’autre conséquence que de vous obliger à lire le message du modérateur et à vous reconnecter. Contrairement au bannissement, il n’entraîne pas la perte des PAs.
+	
+	
+	- Les règles à respecter sur le channel en jeu ?
+	
+	1/ Il est strictement interdit de tenir des propos racistes, xénophobe, offensant pour un groupe ou une communauté, de parler d’acte délictueux (en particulier piratage, hack, etc…), et de façon générale contraire aux lois en vigueur en France. Les insultes et attaques personnelles contre un joueur ou un groupe de joueurs seront également punies. Tout propos diffamant sera également puni. (Ce principe est à prendre en compte en cas de suspicion de “grief”).
+	
+	2/ Il est interdit d’écrire en majuscule dans le channel, en effet cela nuit grandement à la lisibilité. Les seuls personnes autorisées à user de cette méthode dans un but de lisibilité sont les modérateurs et les administrateurs. En cas de manquement à cette règle, le joueur se verra bannir pendant 24h.
+	
+	3/ D’autre part, tout flood du chat sera punissable d’un kick.
+	
+	4/ Avant de poser une question en jeu à l’ensemble des joueurs vérifiez que la réponse ne se trouve pas dans les règles et dans cette F.A.Q. ! Dans le cas où vous poseriez plusieurs questions dont les réponses se trouveraient sur le forum ou faisant parti des règles de base du forum, vous risqueriez de vous faire éjecter du serveur par un modérateur avec le message “Consultation_du_forum_requis”. En effet, en tant que membre de la communauté vous devez connaître les règles qui la régissent !
+	
+	5/ En cas de problème sur le chat avec un autre joueur, avertissez en tout premier lieu le modérateur ou l’administrateur présent (privilégiez les modérateurs, ils sont là pour ça). Ne répondez pas aux insultes, n’hésitez pas à prendre des screens (cf. “Comment prendre des screens du jeu ?”) et à reporter tout manquement sur le forum de préférences par MP aux modérateurs.
+	
+	
+	- Qu\'est-ce que la limite de joueur et comment s\'applique-t-elle ?
+	
+	La limite de joueur est un compromis entre le nombre maximum possible de joueur sur le serveur et la capacité du dit serveur à gérer la communauté présente. Elle permet à un nombre précis de joueurs de se connecter, mais pour promouvoir les rangs de joueurs plus élevés, les citoyens, voyageurs et nobles peuvent se connecter à quelques uns en cas de surpopulation. Ce qui a pour effet de favoriser l’entrée de ces types de joueurs sans pénaliser directement les autres rangs. Les administrateurs et les modérateurs peuvent toujours se connecter.
+	
+	Il est à noter qu’il n’existe aucun système d’éjection pour libérer de la place en faveur d’un rang supérieur. Tant que vous restez connecté, vous ne serez jamais éjecté au profit de quelqu’un d’autre.
+	
+	
+	- Faut-il un abonnement pour jouer ?
+	
+	Il n’est pas nécessaire de payer un abonnement pour jouer. Il est tout à fait possible d’accéder au serveur en tant que vagabond pour le découvrir gratuitement mais sans possibilité d’interaction. Mais il est également possible d’accéder au rang de paysan sans débourser le moindre euro. Ce rang ne présente plus de restrictions.
+	
+	Pour les autres grades, il n’existe pas non plus un abonnement à proprement parler. Il s’agit d’un temps de jeu valorisé en jours, qui se décompte à partir du moment où vous avez acquis les grades de citoyens ou de voyageurs. La différence avec un abonnement, c’est qu’il est tout à fait possible de ne pas payer, vous serez alors passé au statut de “destitué”, c\'est-à-dire que vous aurez les mêmes droits que les paysans. Ce processus est plus souple, car par exemple en période de vacances, vous pouvez vous s’abstenir de payer et retrouver votre grade après achat de temps de jeu.
+	
+	
+	- Qu\'est-ce qu\'un donjon ?
+	
+	Le terme de donjon s’emploie pour deux éléments du jeu :
+	
+	- les donjons générés par le jeu, reconnaissables par leurs murs en pierre moussue (mossycobble) et à la présence d’un générateur de monstres.
+	
+	- les donjons fabriqués par les joueurs qui constituent une attraction à base de pièges et d’énigmes.
+	
+	
+	- Comment fonctionne la pyramide de Kherinops ?
+	
+	La pyramide de Kherinops est un projet mené par Kimarhy et Nothsa, puis rendu utilisable par l’emploi de scripts créés par Neymir. Ce système permet d’éviter à plus d’un joueur de rentrer à la fois dans la dite pyramide. En effet elle constitue une expérience solo, un donjon truffé de pièges et d’énigmes en tout genre !
+	
+	
+	- Pourquoi je ne peux pas rentrer dans la pyramide de Kherinops ?
+	
+	Une limitation a été imposée, en effet la pyramide est une expérience solitaire. Il n’est pas possible d’y rentrer si un autre joueur s’y trouve.
+	
+	
+	- Quelles sont les règles appliquées aux donjons du serveur ?
+	
+	Il est impératif de se conformer aux règles du jeu établies par les créateurs du dit donjon. Dans le cas contraire le joueur pourra se voir refuser l’accès au donjon.
+	
+	
+	- Qui dois-je contacter pour être aidé en jeu ?
+	
+	La communauté de Minefield est toujours prête à s’aider. L’entre aide n’est pas un vain mot, à la condition de ne pas harceler les gens de questions dont la réponse est présente sur le forum. Dans la grande majorité des cas vous trouverez toujours quelqu’un pour vous aider (même tard le soir, il s’agira probablement d’un québécois ;-) ). Il n’est pas rare que des citoyens/voyageurs viennent verser quelques seaux d’eau ou de lave chez des paysans désireux de faire des champs irrigués ou des pièges mortels.
+	
+	Bien sûr les personnes à contacter en priorité (par MP) sont les modérateurs, en cas d’absence de modérateurs, les administrateurs pourront être sollicités.
+	
+	
+	- Je ne comprends pas toutes les règles où puis je me renseigner ?
+	
+	Dans les discussions dédiées au sujet sur le forum, et en particulier sur la partie du forum consacrée aux nouveaux arrivants, dans cette F.A.Q., en posant la question sur le forum, éviter le plus possible de venir poser votre question dans le jeu quand elle peut aisément être posée sur le forum !
+	
+	
+	- Que faire en cas de refus de son grade de paysan ?
+	
+	Rien, à part retenter en améliorant les points qui peuvent l’être selon vous. L’élément qui peut faire la différence est l’orthographe ! Nous ne laissons pas un nombre de tentatives illimité, mettez toutes les chances de votre coté en faisant dès le départ une demande sans fautes. Pour ce qui est du fond, n’hésitez pas à vous inspirer des autres, et seulement vous inspirer. Tout copier/coller constaté (et les modérateurs ont une excellente mémoire) entrainera un refus définitif de rejoindre le serveur.
+	
+	
+	- Où puis-je miner ?
+	
+	Techniquement n’importe où. Mais comme pour les constructions que vous voudriez faire, il faut respecter la présence des chantiers d’une part. Des constructions des autres joueurs d’autre part. Il est proscrit de miner en ligne droite jusqu’au “bedrock” ainsi qu’en ligne droite dans une direction sur plusieurs dizaines de blocs.
+	
+	
+	- Quelles sont les règles sur le minage ?
+	
+	Il est important de ne pas transformer la carte en gruyère. Il est proscrit de tailler la roche sur plusieurs dizaines de cubes en ligne droite. Privilégiez un minage efficace (pour un minage efficace, vous pouvez consulter le tutoriel suivant (par notre ami TheFantasio947) : … De préférence restez raisonnable en creusant dans les grottes existantes, afin de garder un aspect naturel au sous-sol. Pour la superficie, il faut rester cohérent avec votre rang, et prendre comme base la taille maximale que peut avoir votre zone cuboïdable. C\'est-à-dire par exemple 25 x 25 pour un paysan (ce qui fait approximativement 25 x 25 x 64 = 40 000 cubes à creuser déjà !)
+	
+	Pour rappel, il y a plus de 10 000 joueurs inscrits, s’ils étaient tous paysan et qu’ils creusaient tous cette superficie, ça représenterait 400 millions de cubes creusés. La carte ne faisant qu’approximativement 2000 x 2000 x 64 = 256 millions de cubes, elle serait vidée en peu de temps.
+	
+	Alors évitez l’abus. Il en faut pour tout le monde.
+	
+	
+	- Que puis-je miner selon mon rang ?
+	
+	Tout les éléments sont minables par tous les rangs (sauf vagabond évidemment) à la condition d’avoir le bon outil comme dans la version solo (une pioche de fer pour la redstone, le diamant, etc…)
+	
+	
+	- Comment se connecter au serveur de Minefield ?
+	
+	Avec le launcher custom minefield.fr, cliquez simplement sur New-Stendel.
+	
+	
+	- Qui sont les empereurs ?
+	
+	Les empereurs (alias les administrateurs) sont :
+	
+	- dokMixer
+	- Kepsyn
+	- neymir
+	- Pyrix
+	
+	
+	- Quels sont les rôles et pouvoirs des empereurs ?
+	
+	Leurs rôles sont primordiaux car ils permettent aux serveurs d’exister et de fonctionner correctement. Pour ce qui est de leur pouvoir, pour faire simple, ils sont omnipotent, omniprésent et ils peuvent faire absolument tout ce qu’ils veulent.
+	
+	
+	- Qui sont les gouverneurs ?
+	
+	Les gouverneurs (alias les modérateurs) sont :
+	
+	Pseudo forum / en jeu
+	
+	Thorgrin/thorgrin
+	StearnZ/StearnZ
+	Neolink/NeolinkP6
+	Larian/anko87
+	Khiel/Tenshinryu
+	Skayloss/Skayloss
+	Dunidan/Dunidan
+	Litteul/Litteul
+	Origine/Origine_chan
+	Aelfyr / Aelfyr
+	Loymaster / Loymaster
+	Commandux / Majorux
+	Louvinette / Louvinette
+	Guyms / Guyms
+	Manamaxxx / Manamaxxx
+	Tyroine / Tyroine
+	
+	
+	- Quels sont les rôles et pouvoirs des gouverneurs ?
+	
+	They’re the law !
+	
+	Ils font respecter les règles, et la Loi ! Ils détiennent la force toute pui-pui-pui-puissante. (Il y aurait une histoire de crâne ancestral, tout ça…).
+	
+	Mais en plus ils sont là pour aider et assister les joueurs. En revanche, ils ne font pas dans le social et le baby-sitting (sauf peut être contre quelques PA). Vous pouvez toujours les contacter en jeu en cas de besoin, mais s\'il s\'agit de poser une question présente ici, il est fort probable que la réponse soit : « Vas lire la FAQ ! »
+	
+	
+	- Quels sont les mods autorisés ?
+	
+	Les mods de cheat sont, bien évidemment, tous interdits. Tout contrevenant s\'expose à un ban définitif ainsi qu\'à la confiscation du contenu de ses coffres.
+	
+	Les autres mods pourraient ne pas être compatible avec le launcher minefield.fr
+	
+	
+	- Peut-on utiliser des textures packs ?
+	
+	Vous avez tout à fait le droit d\'utiliser les textures packs qui vous conviennent. La seule restriction, c\'est de ne pas utiliser de texture permettant de tricher ! Dans ce cas, la sanction est le ban définitif.
+	
+	
+	- Est ce que le fait d\'être en tiny permet de faire moins laggué le serveur ?
+	
+	Non ! La charge du serveur est la même que vous soyez en “far” ou en “tiny” car la quantité de données transmise au client est la même quelque soit la distance de vue. L\'impact se constatera uniquement sur la fluidité de votre affichage.
+	
+	
+	- Quelles sont les commandes à connaître ?
+	
+	La notation utilisée est la suivante : - entre guillemets la totalité de la commande à tapper sans les dites guillemets - entre crochets les parties de la commande à remplacer avec ce qu\'il convient
+	
+	Voici un apperçu de quelques commandes : ”
+	
+	”/money” permet de connaître l\'argent et le nombre de jetons que l\'on possède.
+	
+	”/money pays [pseudo] [montant]” permet de donner au joueur nommé [pseudo] la somme de [montant] PAs.
+	
+	”/pay [montant]” permet d\'effectuer le paiement de la somme de [montant] PAs directement au serveur.
+	
+	”/me” permet de décrire une action (cf. Comment décrire une action sur le channel en jeu ?).
+	
+	”/m” permet d\'écrire en privé (cf.Comment parler en privé sur le channel en jeu ?).
+	
+	”/cmod” permet de gérer les droits d\'un “cuboïde”
+	
+	La touche m permet d'afficher l\'interface de la fiche de personnage, elle permet de gérer la téléportation et d\'afficher d\'autres choses comme une bourse.
+	
+	
+	- Comment les monstres sont ils gérés sur le serveur ?
+	
+	Les monstres fonctionnent de la même façon que dans le mode solo à ceci près que les creepers ne font pas de dégâts au terrain/cubes mais uniquement au joueur. Une maison cuboïdée ou non ne sera donc pas endommagée.
+	
+	
+	- Comment est gérée la TNT sur le serveur ?
+	
+	La TNT est désactivée sur le serveur. Impossible d\'en poser.
+	
+	
+	- Comment est gérée le feu sur le serveur ?
+	
+	Le feu existe, il peut être acheté dans la boutique au dessus de la gare de New Stendel. Il ne peut pas se propager.
+	
+	
+	- Comment dois je faire pour obtenir mes 3 PAs journalier ?
+	
+	Il est nécessaire de taper au moins une fois la commande ”/money” pour activer la comptabilisation des PAs journalier.
+	
+	
+	- Comment connaître sa position sur le serveur ?
+	
+	Pour connaître sa position sur le serveur, il suffit de rester appuyer sur la touche “F3” de son clavier. Les informations pertinentes se trouvent en face des coordonnées “X” et “Z”, en effet “Y” représente la hauteur.
+	
+	
+	- Est ce que le joueur contre joueur/player versus player/PvP est activé sur le serveur ?
+	
+	A l\'heure actuelle, le PvP n\'est activé que la carte du “Nether”, vous pouvez vous balader tranquillement ailleurs. Sur le Nether, le spawn est une zone safe-PvP, au delà, vous y entrez à vos risques et périls. Cependant certaines zones pvp existent sur Stendel, à vous de les dénicher !
+	
+	
+	- Les tours à mobs/mob spawner automatisés sont ils autorisés ?
+	
+	Non, et ce même sur Nimps ! Tout système visant à shooter du mobs en boucle tout en restant afk pour récupérer les loots est dorénavant interdit. Tout contrevenant sera sanctionné. Vous pouvez tuer du mob, mais de façon manuelle comme le brave aventurier que vous êtes.
+	
+	
+	- Les horloges ou boucles de redstone sont elles autorisées ?
+	
+	Non, ce genre de dispositif surcharge le serveur inutilement et pourrait nuire à l\'expérience des autres joueurs.
+	
+	
+	- Les générateurs de cobblestone/obsidienne sont ils autorisés ?
+	
+	Les générateurs à cobble le sont si et seulement si ils sont cachés (dans votre cave par exemple). Les générateurs d\'obsidienne quant à eux sont interdits.
+		
+	---Cuboïdage.---
+	
+	Le cuboïdage d\'une zone, ou cubo pour les intimes, est l\'action de verrouiller cette zone pour tout le monde sauf pour les joueurs présents dans la liste dudit cubo. Cette opération n\'est pas gratuite et vous coûtera 1Pa par cube de surface.
+	
+	
+	- Informations générales :
+	
+	Sachez tout d\'abord qu\'un cubo c\'est 100 blocs minimum et donc 100Pa. Vous n\'avez pas 100Pa ? Oubliez donc l\'idée du cubo pour l\'instant. Vous n\'avez pas 100cubes de surface (longueur x largeur) ? Le cubo est quand même possible mais coutera 100Pa.
+	
+	Sachez aussi que la surface que vous cuboiderez sera aussi protégée en +15/-15 en hauteur/profondeur. Concrètement, vous aurez un volume cuboidé de 30cubes avec votre base au centre.
+	
+	Une petite exception cependant, si votre cubo fait plus de 500 Pa, là il passera en ce qu\'on appelle un highprotect et sera protégé du ciel à la bedrock. Un highprotect peut tout de même être effectué sur une zone plus petites que 500 cubes mais il coutera quand même 500Pa.
+	
+	Pour payer un cubo la commande est : /pay somme
+	
+	Exemple :
+	
+	/pay 250
+	
+	Ne confondez pas avec /money pay joueur somme !
+	
+	
+	- Le cubo dit "simple" :
+	
+	Pensez à baliser votre zone à cuboider avant d\'appeler un modérateur (en rouge clair dans le chat). Pour cela, deux cubes suffisent : un dans chaque coin de votre zone pour former une diagonale. Si possible, utilisez des blocs bien visible et qui dénotent avec le restent (de la laine par exemple). Concrètement, ça donne ceci :
+	
+	
+	
+	- Le cubo dit "je veux pas +15/-15" :
+	
+	Ou plus communément appelé protect.
+	
+	Parfois, vous ne pourrez pas faire de +15/-15 (cas des appartement, projets en dessous de votre zone à cubo, …), que faire ? Il vous suffit de placer un bloc à la base basse de votre cubo et un à la base haute, toujours en diagonale. Comme précédemment veillez à utilisez des blocs visibles. Attention, cette technique ne marche QUE si la distance entre vos deux blocs est de 30 ou moins (ben oui, sinon autant faire un +15/-15).
+	
+	
+	- Modifications sur un cubo :
+	
+	Avant tout chose, sachez que chaque opération citées ci dessous sera facturée 25Pa.
+	
+	   Déplacement
+	
+	Vous n\'avez plus besoin d\'un cubo et vous souhaitez l\'utiliser ailleurs ? Cette opération est faite pour vous !
+	
+	Vous pouvez déplacer le cubo de n\'importe où à..n\'importe où. Cette opération ne coute que 25Pa si et seulement si la taille reste identique.
+	
+	Pour se faire, allez sur votre ancien cubo en l\'ayant balisé au préalable (ainsi le modo connaitra la taille de celui-ci). Une fois les mesures prises et le cuboïde effacé, téléportez vous sur le nouvel emplacement (/home si sur le même monde, sinon passez un portail) et prévenez le modo une fois prêt pour qu\'il effectue un cuboïdage normal. Normal donc pensez à aussi baliser la nouvelle zone !
+	
+	   Agrandissement
+	
+	Vous avez un cubo mais vous souhaitez l\'agrandir ? C\'est ici !
+	
+	Commencez par baliser votre cubo existant par un type de bloc. Ajoutez ensuite des balises différentes pour l\'agrandissement. Cette opération vous coûtera 25pa + le prix de l\'agrandissement. Concrètement la recette ci contre est appliquée : (nouveau - ancien) + 25 = somme à payer.
+	
+	   Sous-cuboïde
+	
+	Un sous-cubo, c\'est refaire un cubo dans un cubo déjà existant. Il vous suffit de baliser la zone normalement (cubo ou protect) et d\'appeler un modérateur. Un sous cuboide ne coute que 25 Pa et ce, quelle que soit sa taille !
+	
+	
+	- Le petit plus qui fait plaisir aux modos :
+	
+	Une petite technique qui consiste à résumer toutes les infos sur un panneau devant votre cubo.
+	
+	La nomenclature est la suivante :
+	
+	Nom désiré pour le cubo
+	
+	Longueur X largeur = somme
+	
+	Balises utilisées et localisation
+	
+	nom à mettre dans le cubo
+	</string>
+	<string name="verrepile"> - Le Verre pilé</string>
+	<string name="verrepiledesc">Spécialité : Souffleur de verre\nExiste dans toutes les couleurs.</string>
+	<string name="verrecolore"> - Le Verre coloré</string>
+	<string name="fusee"> - Les Fusées</string>
+	<string name="fuseedesc">Spécialité : Ingénieurs\nPour les feux d\'artifice</string>
+	<string name="lancefeu"> - Le Lance feux d\'artifices</string>
+	<string name="lancefeudesc">Spécialité : Ingénieurs\nLe colorant détermine le type de lance-feux d\'artifice. Consomme une fusée par utilisation. </string>
+	<string name="toile"> - La Toile d\'araignée</string>
+	<string name="toiledesc">Spécialité : Aventuriers\nLa toile d\'araignée freine le mouvement, mais n\'amortit pas la chute. </string>
+	<string name="buchehorizon"> - Les bûches horizontales</string>
+	<string name="bucheshorizondesc">Spécialité : Bûcherons\nMarche avec le pin, le bouleau et le bois normal.</string>
+	<string name="biere"> - Les Bières</string>
+	<string name="bieredesc">Spécialité : Taverniers\nLe houblon ne peut être posé que par un fermier. Le craft des seaux de bière ainsi que de la bière sera soumis à de futures évolutions.</string>
+	<string name="mossy">" - Mossy cobblestone"</string>
+	<string name="mineursdesc">Spécialité : Mineur\nDes blocs de pierre spéciaux !</string>
+	<string name="mossystone">- Mossy stone brick</string>
+	<string name="stonecracked">- Cracked stone brick</string>
+	<string name="crane">- Le Crâne</string>
+	<string name="cranedesc">Spécialité : Aventurier</string>
+	<string name="vase">- Le vase</string>
+	<string name="vasedesc">Spécialité : Maçon\nPossibilité d\'y planter les fleurs rose et jaune, ainsi que les pousses d\'arbre.</string>
+	<string name="profil_title">Mon Profil</string>
+	<string name="profil">Profil</string>
+	<string name="ok">OK</string>
+	<string name="fieldProfil">Votre pseudo minecraft</string>
+	<string name="netherbrick">- La Netherbrick</string>
+	<string name="netherbrickdesc">Spécialité : L\'indigène à la con du Chaos</string>
+	<string name="tableaufer">- Le tableau en fer</string>
+	<string name="tableauferdesc">Spécialité : Le Tiserand</string>
+	<string name="lampeglowpure">- Lampe de glowstone pure</string>
+	<string name="lampedesc">Spécialité : Ingénieur</string>
+	<string name="lampeglow">- Lampe de glowstone</string>
+	<string name="piochesaphir">- La Pioche serties de saphir</string>
+	<string name="piochesaphirdesc">Spécialité : Mineur\nPermet aux mineurs de récolter les blocs de marbre à l\'état naturel. Une fois le bloc récolté et posé à nouveau, tous les joueurs peuvent le récupérer à l\'aide d\'une pioche. On peut donc acheter ces blocs sur le marché sans inquiétude.</string>
+	<string name="marbre">- Le marbre noir raffiné</string>
+	<string name="marbredesc">Spécialité : Mineur\nLe marbre brut se trouve dans le nether et s\'obtient à l\'aide de la pioche de saphir.</string>
+	<string name="marbredalle">- La Demi-dalle de marbre noir</string>
+	<string name="specialitetoute">Spécialité : Toute</string>
+	<string name="bibliotheque">- La Bibliothèque</string>
+	<string name="livrecolore">- Le Livre coloré</string>
+	<string name="livredesc">Spécialité : Toute\n A placer dans les bibliothèques. Dispo dans toutes les couleurs.</string>
+</resources>

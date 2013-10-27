@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
+    package="com.minefield"
+    android:versionCode="12"
+    android:versionName="2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+        
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MinefieldActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".displayNews" />
+        <activity
+            android:name=".displayCodex"/>
+        <activity
+            android:name=".displayForum" />
+        <activity
+            android:name=".displayFaq" />
+        <activity
+            android:name=".displayBourse" />
+        <activity
+            android:name=".displayLiens"/>
+        <activity
+            android:name=".TabCarte" />
+        <activity
+            android:name=".displayProfil" />
+        <activity 
+            android:name=".AboutActivity" />
+    </application>
+
+</manifest>
