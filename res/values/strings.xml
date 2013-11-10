@@ -83,14 +83,14 @@
 		d\'autres recettes.</string>
 	<string name="saphir"> - Le Saphir</string>
 	<string name="rubis"> - Le Rubis</string>
-	<string name="emeraude"> - L\'Emeraude</string>
-	<string name="baton_or"> - Le baton en or</string>
-	<string name="orbatondesc">Spécialité : Le Joaillier\nCe baton sert dans
+	<string name="emeraude"> - L\'Émeraude</string>
+	<string name="baton_or"> - Le bâton en or</string>
+	<string name="orbatondesc">Spécialité : Le Joaillier\nCe bâton sert dans
 		d\'autres recettes.</string>
 	<string name="cerclageor"> - Le cerclage en or</string>
 	<string name="orcerclagedesc">Spécialité : Le Joaillier\nCe cerclage sert dans
 		d\'autres recettes.</string>
-	<string name="faux_obsi"> - La binnette ou faux en obsidienne</string>
+	<string name="faux_obsi"> - La binette ou faux en obsidienne</string>
 	<string name="outil_obsidesc">Spécialité : L\'Outilleur\nCet outil a la
 		durabilité moitié celle du diamant, et est aussi efficace que le
 		diamant.</string>
@@ -100,9 +100,9 @@
 	<string name="obsi"> - Le Lingot d\'obsidienne</string>
 	<string name="obsidesc">Spécialité : Le forgeron\nSert pour différents
 		crafts en obsidienne. A faire fondre dans un four.</string>
-	<string name="baton_obsi"> - Le baton en obsidienne</string>
+	<string name="baton_obsi"> - Le bâton en obsidienne</string>
 	<string name="cerclage_obsi"> - Le Cerclage en obsidienne</string>
-	<string name="eprouvette"> - L\'eprouvette</string>
+	<string name="eprouvette"> - L\'éprouvette</string>
 	<string name="eprouvettedesc">Spécialité : Le Souffleur de verre\nSert pour les
 		différentes recettes de potions.</string>
 	<string name="fiole_agra_leg"> - La Fiole d\'agrandissement légère</string>
@@ -269,7 +269,7 @@
 	de la carte non transmise par le serveur. Ce bug provient du code
 	serveur de Notch et n\'a rien à voir avec le serveur en lui même, sur
 	ses performances ou sur le nombre de joueurs. Il est prohibé
-	d\'utiliser les bug de “chunk” pour voir ce qui se cache en profondeur
+	d\'utiliser les bugs de “chunk” pour voir ce qui se cache en profondeur
 	de la carte. En règle générale, lors de la reconnexion, le “chunk”
 	devrait se charger correctement.\n\n\n
 
@@ -289,7 +289,7 @@
 	
 	- Qu\'est-ce qu\'un "cuboïde", Qu\'est-ce que le cuboïdage" ?
 
-	Un cuboïde est une zone protégée de la carte où toute action est impossible, sauf si l\'accès à la zone est autorisée au joueur. L\'exemple le plus connu est la zone du “spawn” (point d\'apparition des joueurs sur le serveur lors de leur première connection), cette zone qui représente à peu près un carré de 30 blocs sur 30 blocs est, dans la version de base du jeu (version “vanilla”), protégée de toute modification, à part par les personnes désignées comme opérateurs du serveur.
+	Un cuboïde est une zone protégée de la carte où toute action est impossible, sauf si l\'accès à la zone est autorisée au joueur. L\'exemple le plus connu est la zone du “spawn” (point d\'apparition des joueurs sur le serveur lors de leur première connexion), cette zone qui représente à peu près un carré de 30 blocs sur 30 blocs est, dans la version de base du jeu (version “vanilla”), protégée de toute modification, à part par les personnes désignées comme opérateurs du serveur.
 	
 	De plus la zone de New-Stendel et sa banlieue est sous “cuboïde”, donc il est normal que vous ne puissiez rien y prendre, ni rien y construire.
 	
@@ -358,7 +358,7 @@
 	
 	- Comment acheter une maison ?
 	
-	S\'il s\'agit d\'une maison dans une communauté de joueurs, comme par exemple, complétement au hasard : Nouvelle Azur, alors il faut voir directement avec les responsables de la communauté. S\'il s\'agit d\'une maison à New Stendel, il faut déjà avoir le rang de citoyen, et alors seulement, faire une demande d\'acquisition sur le forum.
+	S\'il s\'agit d\'une maison dans une communauté de joueurs, comme par exemple, complètement au hasard : Nouvelle Azur, alors il faut voir directement avec les responsables de la communauté. S\'il s\'agit d\'une maison à New Stendel, il faut déjà avoir le rang de citoyen, et alors seulement, faire une demande d\'acquisition sur le forum.
 	
 	
 	- Qu\'est-ce que les PAs ?
@@ -652,7 +652,7 @@
 	
 	- Quelles sont les commandes à connaître ?
 	
-	La notation utilisée est la suivante : - entre guillemets la totalité de la commande à tapper sans les dites guillemets - entre crochets les parties de la commande à remplacer avec ce qu\'il convient
+	La notation utilisée est la suivante : - entre guillemets la totalité de la commande à taper sans les dites guillemets - entre crochets les parties de la commande à remplacer avec ce qu\'il convient
 	
 	Voici un apperçu de quelques commandes : ”
 	
@@ -696,9 +696,9 @@
 	Pour connaître sa position sur le serveur, il suffit de rester appuyer sur la touche “F3” de son clavier. Les informations pertinentes se trouvent en face des coordonnées “X” et “Z”, en effet “Y” représente la hauteur.
 	
 	
-	- Est ce que le joueur contre joueur/player versus player/PvP est activé sur le serveur ?
+	- Est ce que le joueur contre joueur/player versus player (PvP) est activé sur le serveur ?
 	
-	A l\'heure actuelle, le PvP n\'est activé que la carte du “Nether”, vous pouvez vous balader tranquillement ailleurs. Sur le Nether, le spawn est une zone safe-PvP, au delà, vous y entrez à vos risques et périls. Cependant certaines zones pvp existent sur Stendel, à vous de les dénicher !
+	A l\'heure actuelle, le PvP n\'est activé que la carte du “Nether”, vous pouvez vous balader tranquillement ailleurs. Sur le Nether, le spawn est une zone safe-PvP, au delà, vous y entrez à vos risques et périls. Cependant certaines zones PvP existent sur Stendel, à vous de les dénicher !
 	
 	
 	- Les tours à mobs/mob spawner automatisés sont ils autorisés ?
